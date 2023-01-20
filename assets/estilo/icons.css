@@ -37,7 +37,7 @@
   .bi-geo::before { content: "\f3e8"; }
   .bi-cart::before { content: "\f244"; }
   .bi-cart2::before { content: "\f243"; }
-  .bi-cart3::before { content: "\f244"; }
+  .bi-cart3::before {     content: "\f179";}
   .bi-check-all::before { content: "\f269"; }
   .bi-lock::before { content: "\f47b"; }
   .bi-up::before { content: "\f148"; }
@@ -90,4 +90,22 @@
 
 .bi-eye-remove::before {
   content: "\f181";
+}
+
+.bi-sms::before {
+  content: "\f250";
+}
+
+.bi-lampada::before {
+  content: "\f468";
+}
+
+
+.bi-execucao::before {
+  content: "\f463";
+}
+
+
+.bi-landing::before {
+  content: "\f466";
 }

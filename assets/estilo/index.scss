@@ -59,6 +59,115 @@ body
 
 
 
+.projetos
+{
+    margin: 0 auto;
+    text-align: center;
+
+    h4
+    {
+        font-weight: 900;
+        font-size: 1.2rem;
+    }
+
+    ul
+    {
+        margin: 0 auto;
+        @extend .flex;
+        margin-block: 2rem;
+
+        li
+        {
+            padding: 2rem;
+            text-align: center;
+            border-radius: .8rem;
+            background: #3c5063;
+        }
+    }
+}
+
+.area-conhecimento
+{
+    div
+    {
+        margin: 0 auto;
+        text-align: center;
+
+        h3
+        {
+            padding: .8rem 0;
+            font-weight: 400;
+            font-size: 1.5rem;
+
+            &::after
+            {
+                top: 5px;
+                content: "";
+                width: 3%;
+                display: block;
+                margin: 0 auto;
+                padding: .1rem; 
+                position: relative;
+                background: #222332;
+            }
+        }
+    }
+
+    ul
+    {
+        display: grid;
+        width: 100%;
+        margin: 0 auto;
+        margin-block: 2rem;
+        padding: 1rem .8rem;
+        grid-template-columns: repeat(auto-fit, minmax(228px, 1fr));
+        grid-gap: 1rem;
+
+        li
+        {
+            text-align: center;
+
+            .icone
+            {
+                width: 100px;
+                height: 100px;
+                position: relative;
+                flex-flow: column;
+                margin-block: 1rem;
+                border-radius: 50%;
+                justify-content: center;
+                background: #1a1b1e;
+
+                i
+                {
+                    color: #fff;
+                    font-size: 2rem;
+                }
+                small
+                {
+                    top: 0px;
+                    right: 0px;
+                    color: #fff;
+                    width: 30px;
+                    height: 30px;
+                    display: block;
+                    padding: .3rem;
+                    position: absolute;
+                    border-radius: 50%;
+                    background: #3c5063;
+                }
+            }
+            h5
+            {
+                font-weight: 900;
+                padding: .5rem 0;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+
 .footer
 {
     width: 100%;
